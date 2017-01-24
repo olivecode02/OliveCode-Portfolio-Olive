@@ -12,8 +12,8 @@ h2,
 h3,
 h4 {
 	font-size: 30px;
-margin: 0;
-Padding: 0;
+	margin: 0;
+	padding: 0;
 }
 div {
 display: block;
@@ -29,9 +29,11 @@ ul {
 /*--------------------------------------------------------------
 # Portfolio Default End
 --------------------------------------------------------------*/
-.page-title {
-	width: 1000px;
+#page {
+	width:1000px;
 	margin: 0 auto;
+}
+.page-title {
 	text-align: center;
 	padding-top: 20px;
 	padding-bottom: 10px;
@@ -57,4 +59,143 @@ ul {
 	line-height: 0;
 	color: #33542a;
 	letter-spacing: 4px;
+}
+.olive-download {
+	background-image: url(http://portfolio.localhost/css/images/olive_circuit_bg.png);
+	height: 384px;
+}
+.olive-download-box {
+	padding-top: 144px;
+}
+.olive-download-content {
+	text-align: center;
+	background-color: rgba(0,0,0,0.5);
+	padding: 20px;
+}
+.olive-download-content h2,
+.olive-download-content a {
+	font-family: "Kozuka Gothic Pr6n";
+	color: #fff;
+}
+.olive-download-content a {
+	padding: 10px 20px;
+	background-color: #39b127;
+}
+.olive-portfolio {
+	padding: 25px 69px;
+}
+.olive-portfolio h2,
+.olive-about h2 {
+	text-align: center;
+	color: #a1a0a0;
+	border-bottom: 2px solid #a1a0a0;
+	width: 175px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	font-weight: normal;
+}
+.olive-portfolio-box {
+	display: inline-block;
+	width: 376px;
+	border: 1px solid #a1a0a0;
+	margin-right: 101px;
+	margin-bottom: 60px;
+}
+.olive-portfolio-box:nth-child(3),
+.olive-portfolio-box:last-child {
+	margin: 0;
+}
+.olive-portfolio-box:nth-child(4),
+.olive-portfolio-box:last-child {
+	margin-bottom: 0
+}
+.olive-portfolio-box a {
+	vertical-align: middle;
+}
+.olive-portfolio-box a img {
+	width: 376px;
+}
+.olive-about {
+	padding: 0px 69px;
+}
+.olive-about-box {
+	padding: 30px;
+	background-color: #dfdfdf;
+}
+.olive-about-description {
+	width: 385px;
+	vertical-align: top;
+	margin-right: 50px;
+}
+.olive-about-description h3,
+.olive-about-description p {
+	font-family: "Kozuka Gothic Pr6n";
+	line-height: 25px;
+}
+.olive-about-description h3 {
+	font-style: italic;
+}
+.olive-about-description, .olive-about-matrix {
+	display: inline-block;
+}
+.olive-about-matrix {
+	width: 362px;
+}
+.olive-about-matrix img {
+	width: 362px;
+}
+
+.olive-contact {
+	background-color: #dfdfdf;
+	margin-top: 50px;
+	padding: 26px 0;
+}
+.olive-contact-box1 {
+	width: 487px;
+	text-align: center;
+	margin-right: 20px;
+	vertical-align: top;
+}
+
+.olive-contact-box1, .olive-contact-box2 {
+	display: inline-block;
+}
+.olive-contact-box1 p {
+	width: 300px;
+	margin: 21px auto;
+	font-style: italic;
+}
+.olive-contact-box1 p,
+.olive-contact-box2 p {
+	font-family: "Myriad Pro";
+}
+.olive-contact-box2 {
+	width: 400px;
+}
+.olive-contact-box2 table tr th p {
+	margin: 5px;
+}
+.olive-contact-box2 table tr:nth-child(3) th {
+	vertical-align: top;
+}
+.olive-contact-box2 table tr th {
+	font-weight: normal;
+	text-align: left;
+	width: 110px;
+}
+.olive-contact-box2 table tr td input {
+	width: 276px;
+}
+.olive-contact-box2 table tr td textarea {
+	width: 274px;
+	height: 124px;
+}
+.olive-contact-box2 table tr:nth-child(4) td {
+	padding: 8px 0;
+}
+.olive-contact-box2 table tr:nth-child(4) td a {
+	background-color: #39b127;
+	padding: 9px 118px;
+	color: #fff;
+	border: 1px solid #237318;
 }
