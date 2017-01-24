@@ -81,11 +81,11 @@ ul {
 	padding: 10px 20px;
 	background-color: #39b127;
 }
-.olive-portfolio {
+#olive-portfolio {
 	padding: 25px 69px;
 }
-.olive-portfolio h2,
-.olive-about h2 {
+#olive-portfolio h2,
+#olive-about h2 {
 	text-align: center;
 	color: #a1a0a0;
 	border-bottom: 2px solid #a1a0a0;
@@ -145,7 +145,7 @@ ul {
 	width: 362px;
 }
 
-.olive-contact {
+#olive-contact {
 	background-color: #dfdfdf;
 	margin-top: 50px;
 	padding: 26px 0;
@@ -156,7 +156,6 @@ ul {
 	margin-right: 20px;
 	vertical-align: top;
 }
-
 .olive-contact-box1, .olive-contact-box2 {
 	display: inline-block;
 }
@@ -198,4 +197,18 @@ ul {
 	padding: 9px 118px;
 	color: #fff;
 	border: 1px solid #237318;
+}
+footer {
+	background-color: #39b127;
+}
+.copyright-note {
+	width: 500px;
+	margin: 0 auto;
+}
+.copyright-note p {
+	text-align: center;
+	color: #fff;
+	font-family: "Myriad Pro";
+	margin: 0;
+	padding: 16px;
 }
