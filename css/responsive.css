@@ -72,6 +72,83 @@ input[type=checkbox]:checked ~ #menu {
 	ul li, li a{
 		width: 100%;
 	}
+	.olive-contact-box2 table tbody tr:nth-child(1) td:nth-child(1) {
+		width: inherit;
+	}
+	.olive-contact-box2 {
+		width: 100%;
+	}
+	.olive-contact-box2 table tbody tr:nth-child(3) td:nth-child(1) {
+		vertical-align: initial;
+		padding-top: 5%;
+		padding-bottom: 6%;
+	}
+	#olive.contact {
+		margin-top: 5%;
+	}
+	.olive-about-box {
+		padding: 7%;
+	}
+	.olive-about-matrix {
+		width: 100%;
+		text-align: center;
+	}
+	.olive-portfolio-box a img,
+	.olive-portfolio-box {
+		width: 100%;
+	}
+	#olive-portfolio {
+		padding: 7%;
+	}
+	#olive-about {
+		padding: 7%;
+	}
+	.olive-about-matrix img,
+	.olive-about-description {
+		width: 100%;
+	}
+	.olive-contact-box1 {
+		float: none;
+		margin: 0 auto;
+	}
+	.olive-contact-box2 {
+		float: none;
+		margin: 0 auto;
+		padding-bottom: 5%;
+	}
+	#olive-contact {
+		height: auto;
+		text-align: -webkit-center;
+	}
+	.olive-contact-box1 img {
+		width: 70%;
+	}
+	.olive-download-box {
+		padding-top: 25%;
+		padding-bottom: 25%;
+	}
+	.olive-download {
+		height: auto;
+		background-size: 100% 100%;
+	}
+	.olive-contact-box1 p {
+		width: 90%;
+	}
+	.olive-contact-box1 {
+		width: 100%;
+	}
+	table {
+		text-align: center;
+	}
+	td {
+		display: block;
+	}
+	tr {
+		display: block;
+	}
+	.copyright-note {
+		width: 100%;
+	}
 }
 
 
